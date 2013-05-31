@@ -13,5 +13,5 @@ run	pip install config
 add	. /
 run	cp example.conf deploy.conf
 run	mkdir -p /var/www/deploy
-expose	80
+expose	9001
 cmd	["python", "deploy.py"]
